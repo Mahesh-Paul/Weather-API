@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Cedarville Cursive', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.container{
+    position: absolute;
+    margin-left: 37%;
+    margin-right: 50%;
+    margin-top: 4%;
+}
+body{
+    background-color: rgb(55, 54, 54);
+}
+.first{
+    color: aqua;
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+    text-decoration: underline;
+}
+@media(max-width:500px)
+{
+    .container{
+        max-width: 600px;
+        height: 900px;
+        margin-top: 6%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+.container{
+    max-height: 700px;
+    width: 90%;
+    max-width: 450px;
+    /* height: 600px; */
+    background:linear-gradient(to right,rgb(75, 187, 219),rgb(38, 114, 201),rgb(34, 172, 211));
+    margin-top: 100px auto 0;
+    border-radius: 20px;
+    padding: 20px 20px;
+    text-align: center;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.container input{
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 24px;
+}
+.container span{
+    margin-left: 20px;
+    margin-top: 30px;
+    align-items: center;
+    text-align: center;
+}
+span i{
+    width: 20px;
+}
+.container input{
+    border: none;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.weather{
+    margin-left: -20px;
+    margin-top: 20px;
+}
+.col img{
+    color: white;
+}
+.temp{
+    font-size: 45px;
+    font-weight:500;
+}
+.city{
+    font-size: 50px;
+    font-weight: 500;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    margin-top: 50px;
+}
+.col{
+    display: flex;
+    text-align: left;
+    align-items: center;
+}
+.col img{
+    width: 80px;
+    margin-right:10px;
+}
+.txt1{
+    font-size: 20px;
+}
+.txt2{
+    font-size: 20px;
+}
+.weather{
+    display: none;
+}
+.error{
+    text-align: center;
+    margin-left: -30px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
+
+@media (max-width: 700px)
+{
+    .container{
+        width: 350px;
+        height: 700px;
+        margin-left: 34px;
+    }
+}
+@media(max-width:700px)
+{
+    .col{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px 35px;
+    }
+    .txt1{
+        font-size: 20px;
+        margin-left: 18px;
+    }
+    .txt2{
+        font-size: 20px;
+    }
+    .temp{
+        font-size: 32px;
+    }
+    .city{
+        font-size: 42px;
+    }
+    img{
+        width: 120px;
+    }
+    input{
+        margin-left: 11px;
+    }
+    .fas{
+        margin-top: 15px;
+    }
+}
